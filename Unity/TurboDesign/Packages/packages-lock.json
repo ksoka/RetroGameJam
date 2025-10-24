@@ -2,7 +2,7 @@
   "dependencies": {
     "com.unity.ai.navigation": {
       "version": "2.0.9",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.ai": "1.0.0"
@@ -203,6 +203,15 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "net.psxsplash.splashedit": {
+      "version": "https://github.com/psxsplash/splashedit.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ai.navigation": "2.0.6"
+      },
+      "hash": "a825d5a707f869bb8680571c60a61b6be22d31e7"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
